@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <!-- linking font awesome icons ......... -->
+    <script src="https://kit.fontawesome.com/9157ab47ac.js" crossorigin="anonymous"></script>
+    <!-- linking of Style.css file with home.html file.. -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- base of our search plate...... -->
+    <div id="foreground-plate">
+        <!-- Heading of my Restorent Name..... -->
+        <h1>FOOD STORE</h1>
+        <!-- Favourite  items are link adding to home file... -->
+        <div id="favourite"><a href="./favorate.html" id="ancr"  target="_blank">Favourite Items List</a></div>
+        <!-- Search box creation -->
+       <div id="searchBox">
+        <!-- Taking input from user -->
+          <input type="text" id="input1" oninput="checkByLetter()" placeholder="Search your Favourite Items...">
+          <!-- Submit button to submiting input.. -->
+          <button id="btn1">Search</button>
+       </div>
+       <!-- Display massage about Item found or Not.... -->
+       <div id="msg">
+            Order your Favourite dish in Search Menue....
+       </div>
+
+       <!-- Displaying Similar Meal Item to your Search.... -->
+       <div id="moreMeals">
+            <!-- your similar Items container... -->
+       </div>
+
+       <!-- <div><a href="./meal.html"target="_blank" >abubakar</a></div> -->
+       
+    </div>
+  
+    <!-- Linking of script.js file into your index.html file....... -->
+<script src="./script.js"></script>
+    
+</body>
+</html>
